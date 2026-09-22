@@ -1,0 +1,16 @@
+.application {
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  height: 100vh;
+}
+
+.bodyWorkspace {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+}
+
+.mainContent {
+  height: 100%;
+  overflow-y: auto;
+  width: 100%;
+}
