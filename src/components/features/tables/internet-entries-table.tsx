@@ -25,7 +25,7 @@ const columns = columnHelper.columns([
   columnHelper.accessor('dateLastDone', { header: 'Date Last Done', cell: (row) => new Date(row.getValue()).toLocaleString() })
 ])
 
-export function InternetEntriesTable() {
+export default function InternetEntriesTable() {
   const table = useTable({ features, columns, data })
 
   return (
