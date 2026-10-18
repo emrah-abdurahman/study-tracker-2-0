@@ -10,5 +10,9 @@ def get_internet_entries():
     return {"internet_entry": "my_internet_entry"}
 
 
-if __name__ == "__main__":
+def main():
     create_db_and_tables()
+
+
+if __name__ == "__main__":
+    main()
