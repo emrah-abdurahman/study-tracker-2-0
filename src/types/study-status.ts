@@ -1,0 +1,1 @@
+export type StudyStatus = 'Backlog' | 'In Progress' | 'On Hold' | 'Completed'
